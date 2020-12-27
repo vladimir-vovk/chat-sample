@@ -1,0 +1,108 @@
+body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.header {
+  position: absolute;
+  top: 8px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 8px;
+}
+
+#form-message {
+  display: flex;
+  width: 400px;
+}
+
+#input-message {
+  flex: 1;
+  margin-right: 8px;
+}
+
+#send-location {
+  margin-top: 8px;
+  width: 120px;
+}
+
+.row {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+#messages {
+  flex-direction: column;
+  flex: 1;
+  max-width: 400px;
+  max-height: calc(100vh - 100px - 68px);
+  margin-top: 100px;
+  margin-bottom: 68px;
+  overflow-y: scroll;
+}
+
+#users {
+  width: 200px;
+  max-height: calc(100vh - 100px - 68px);
+  margin-top: 100px;
+  margin-bottom: 68px;
+  margin-left: 16px;
+  overflow-y: scroll;
+  color: #df7861;
+}
+
+.message {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #fcf8e8;
+  border-radius: 6px;
+  padding: 16px;
+  padding-bottom: 20px;
+  margin-bottom: 16px;
+}
+
+.your-message {
+  background-color: #d4e2d4;
+}
+
+.user {
+  color: #df7861;
+  margin-top: -6px;
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+
+.timestamp {
+  color: #ecb390;
+  position: absolute;
+  right: 8px;
+  bottom: 4px;
+  font-size: 12px;
+}
+
+#form-join {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+#form-join label {
+  margin-bottom: 4px;
+}
+
+
+#form-join input {
+  margin-bottom: 16px;
+}
+
+#form-join button {
+  width: 64px;
+}
