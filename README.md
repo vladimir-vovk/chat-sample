@@ -3,7 +3,7 @@ Chat App Example ✉️
 
 Simple chat application example with Node.js and Socket.io
 
-<img src="./screen.gif" width="700"></img>
+<img src="./screen.gif" width="1000"></img>
 
 # Installation
 
