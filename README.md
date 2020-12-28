@@ -1,7 +1,7 @@
 Chat App Example ✉️
 ==================
 
-Simple chat application example with Node.js and Socket.io
+Simple [chat application](https://vvovk-chat-sample.herokuapp.com/) example with Node.js and Socket.io
 
 <img src="./screen.gif" width="1000"></img>
 
